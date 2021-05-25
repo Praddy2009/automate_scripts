@@ -10,7 +10,6 @@ for filename in os.listdir(directory):
         a=os.path.join(directory, filename)
         im = Image.open(a)
         width, height = im.size
-
         draw = ImageDraw.Draw(im)
         text = "@its_praddy"
 
